@@ -1,0 +1,24 @@
+{
+    "name": "Testing Composer",
+    "description": "The  Framework",
+    "keywords": ["framework", "php", "natural", "natural-php"],
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Open Source Mind",
+            "email": "devteam@opensourcemind.net",
+            "homepage": "http://www.opensourcemind.net",
+            "role": "Developer"
+        }
+    ],   
+    "require":{
+				"elasticsearch/elasticsearch": "~1.0"
+      },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.0-dev"
+        }
+    }
+}
